@@ -5,7 +5,7 @@ const RestaurantFinder = axios.create({
   baseURL:
     process.env.NODE_ENV !== "production"
       ? "http://localhost:7001/api/v1/restaurants"
-      : "https://alluring-bryce-canyon-75245.herokuapp.com/api/v1/restaurants",
+      : "https://finder-resto.herokuapp.com/api/v1/restaurants",
   timeout: 5000,
 });
 
